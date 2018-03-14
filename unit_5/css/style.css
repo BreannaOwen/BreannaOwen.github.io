@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Muli');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Muli');
 
 * {
 	padding: 0px;
@@ -11,65 +11,44 @@ body, {
 	line-height: 1.5em;
 	background: #E5E5E5;
 	text-align: center;
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Cormorant Garamond', serif;
 }
 
 h1, {
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Muli', sans-serif;
 	font-size: 2.1em;
 }
 
 h2 {
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.8em;
 }
 
 h3{
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.5em;
 }
 
 h4 {
-	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Cormorant Garamond', serif;
 	font-size: 1.2em;
 }
-.quote {
-	font-family: 'Julius Sans One', sans-serif;
-	font-style: italic;
+
+header {
+	background-color: #7F7F7F;
+	height: 60px;
+	padding: 10px;
+	color: #E5E5E5; 
+	position: -webkit-sticky; /* Safari */
+    position: sticky;
 }
 
-.quote, .about, .contact, .gallery {
+nav {
+ 	float: left;
+ 	text-align: center;
+	margin: 0 auto;
 	font-family: 'Muli', sans-serif;
 	font-size: 1em;
-	width: 30em;
-	margin: 2em auto;
-}
-
-.header img {
-	width: 30em;
-}
-
-.about img, .contact img {
-	width: 30em;
-}
-
-.about {
-}
-
-section {
-	padding:4em 0;
-}
-
-a {
-	color: #C0535E;
-}
-
-a:visited {
-	color: #B54E59;
-}
-
-a:hover {
-	color: #FF94AB;
 }
 
 .hero{
@@ -82,29 +61,8 @@ a:hover {
 	text-align: left;
 }
 
-header {
-	background-color: #7F7F7F;
-	height: 60px;
-	padding: 10px;
-	color: #E5E5E5; 
-	position: -webkit-sticky; /* Safari */
-    position: sticky;
-}
-
-
-nav {
- 	float: left;
- 	text-align: center;
-	margin: 0 auto;
-	font-family: 'Muli', sans-serif;
-	font-size: 1em;
-}
-
-footer {
-	background-color: #7F7F7F;
-	padding: 10px;
-	color: #404040; 
-	text-align: center;
+.header img {
+	width: 30em;
 }
 
 #intro {
@@ -125,10 +83,45 @@ button, #cta {
 	text-align: center;
 }
 
+section {
+	padding:4em 0;
+}
+
+a {
+	color: #C0535E;
+}
+
+a:visited {
+	color: #B54E59;
+}
+
+a:hover {
+	color: #FF94AB;
+}
+
+.quote, .about, .contact, .gallery {
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	width: 30em;
+	margin: 2em auto;
+	padding: 0; 
+}
+
 .gallery {
 	background-color: #fff;
 }
+.art{
 
+}
+
+.quote {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+}
+
+.about img, .contact img {
+	width: 30em;
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -161,4 +154,11 @@ input[type=submit]:hover {
     padding: 20px;
     font-family: 'Muli', sans-serif;
 	font-size: 1em;
+}
+
+footer {
+	background-color: #7F7F7F;
+	padding: 10px;
+	color: #404040; 
+	text-align: center;
 }
