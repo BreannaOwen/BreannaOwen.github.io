@@ -108,8 +108,7 @@ a:hover {
 	font-family: 'Muli', sans-serif;
 	font-size: 1em;
 	width: 100%;
-	margin: 2em auto;
-	padding: 0; 
+	background-color: #f2f2f2;
 }
 
 .gallery {
@@ -120,7 +119,6 @@ a:hover {
 .column1, .column2, .column3 {
 	float: left;
 	width: 33.3333333333%;
-	padding: 20px;
 	margin: 2em auto;
 	display: block;
 
@@ -131,23 +129,26 @@ a:hover {
 	font-style: italic;
 }
 
-.columnleft, .columnright {
+.columnleft {
 	clear: both;
-	float:left;
+	float: left;
 	background-color: #f0eae6;
 	width: 50%;
-	display: block;
 }
 
-.columnleft img, .columnright img {
+.columnright {
+	clear: both;
+	float: left;
+	background-color: #f0eae6;
 	width: 50%;
-	display: block;
+}
+
+.about img, .contact img {
+	width: 50%;
 }
 
 .contact {
 	clear: both;
-	width: 50%;
-	display: block;
 }
 
 input[type=text], select, textarea {
@@ -177,7 +178,7 @@ input[type=submit]:hover {
 
 .container {
 	clear: both;
-	float: left;
+	float: right;
 	width: 50%;
     border-radius: 5px;
     background-color: #f2f2f2;
@@ -193,4 +194,13 @@ footer {
 	color: #404040; 
 	text-align: center;
 	width: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
