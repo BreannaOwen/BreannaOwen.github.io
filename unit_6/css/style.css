@@ -117,11 +117,12 @@ a:hover {
 	width: 100%;
 }
 
-.column1, .column2, .column3 {
+.column {
 	float: left;
+	height: 500px;
 	width: 300px;
-	margin: 30px;
-	background-color: red;
+	margin: 40px;
+	text-align: center;
 }	
 
 .quote {
@@ -129,21 +130,17 @@ a:hover {
 	font-style: italic;
 }
 
-.columnleft {
+.halfpage {
 	float: left;
 	background-color: #f0eae6;
 	width: 50%;
 	box-sizing: border-box;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
-.columnright {
-	float: left;
-	background-color: #f0eae6;
-	width: 50%;
-}
-
-.about img, .contact img {
-	width: 50%;
+.halfpageimage {
+	width: 100%; 
 }
 
 .about {
@@ -153,6 +150,10 @@ a:hover {
 .contact {
 	clear: both;
 }
+
+.artwork {
+	width: 100%;
+} 
 
 input[type=text], select, textarea {
     width: 100%;
@@ -180,7 +181,6 @@ input[type=submit]:hover {
 }
 
 .container {
-	clear: both;
 	float: left;
 	width: 50%;
     border-radius: 5px;
