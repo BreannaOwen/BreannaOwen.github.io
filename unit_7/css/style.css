@@ -158,7 +158,7 @@ nav a:hover {
 	float: left;
 	width: 50%;
 	box-sizing: border-box;
-	padding-right: 30px;
+	/*padding-right: 30px;*/
 	line-height: 1.5em;
 }
 
@@ -173,7 +173,7 @@ nav a:hover {
 }
 
 .profileimage {
-	max-width: 100%;
+	width: 100%;
 	display: inline-block;
 
 }
@@ -181,11 +181,13 @@ nav a:hover {
 .about .halfpage {
 	background-color: #f2f2f2;
 	padding-bottom: 2em;
+	padding-right: 2em;
 }
 
 .contact .halfpage {
 	background-color: white;
 	padding-bottom: 2em;
+	padding-right: 2em;
 }
 
 .contact {
