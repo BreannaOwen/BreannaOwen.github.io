@@ -457,6 +457,9 @@ nav:hover a {
 	font-size: 1.8em;
 }
 
+.logo {
+	display: none;
+}
 
 .icons {
 	padding-left: 15%;
