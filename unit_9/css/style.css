@@ -1,0 +1,732 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Lora');
+
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body, {
+	font-size: 16px;
+	font-family: 'Muli', sans-serif;
+	line-height: 1.5em;
+	background: #E5E5E5;
+	text-align: center;
+}
+
+h1, {
+	font-family: 'Muli', sans-serif;
+	font-size: 2.1em;
+}
+
+h2 {
+	font-family: 'Muli', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	font: thin;
+}
+
+h3{
+	font-family: 'Muli', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+	font: thin;
+}
+
+h4 {
+	font-family: 'Muli', sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+	font: thin;
+}
+
+p {
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+}
+
+header {
+	background-color: #7F7F7F;
+	height: 70px;
+	color: #E5E5E5; 
+	position: fixed;
+	width: 100%;
+}
+
+nav {
+ 	float: left;
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	text-align: center;
+	text-decoration: none; 
+}
+
+nav a {
+	display: inline-block;
+	padding: 1.55em;
+	text-decoration: none;
+	border-style: 0;
+	background-color: #7F7F7F;
+	color: white;
+}
+
+nav a:hover {
+	color: #C0535E;
+	background-color: white;
+	font-weight: bold;
+}
+
+#mobile {
+	display: none;
+}
+
+.mobilelogo{
+	display: none;
+}
+
+.cta {
+	display: inline-block;
+	padding: 1.2em;
+	text-decoration: none;
+	border-style: 0;
+	border-radius: 6px;
+	background-color: #C0535E;
+	color: white;
+}
+
+.cta:hover {
+	background-color: white;
+	color: #C0535E;
+	font-weight: bold;
+}
+
+.hero {
+	width: 50%;
+	padding-top: 60px;
+}
+
+.logo {
+	height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	float: left;
+	text-align: left;
+}
+
+.header img {
+	width: 30em;
+}
+
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: cover;
+	overflow: hidden;
+	height: 90vh;
+	color: #363636;
+	text-align: center;
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	padding-top: 4em;
+}
+
+.wrapper {
+	max-width: 700px;
+	margin: auto;
+}
+
+.gallerywrapper {
+	max-width: 1500px;
+	margin: auto;
+}
+
+.quote, .about, .contact {
+	font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	width: 100%;
+}
+
+.gallery {
+	width: 100%;
+	justify-content: center;
+	padding-top: 5em;	
+	padding-bottom: 5em;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 30px;
+	text-align: left;
+	line-height: 1.3em;
+}
+
+.price {
+	font-weight: bold;
+}
+
+.quote {
+	font-family: 'Cormorant Garamond', serif;
+	font-style: italic;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	font-size: 1.2em;
+	line-height: 1.2em; 
+	padding-bottom: 1em;
+	padding-top: 2.5em;
+
+}
+
+.halfpage {
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+	line-height: 1.5em;
+}
+
+.halfpage p, h2, a, .quote {
+	padding-left: 2em;
+	padding-top: 1em;
+}
+
+.about {
+	clear: both;	
+	width: 100%;
+	background-color: #f2f2f2;
+}
+
+.about h2 {
+	padding-top: 3em;
+}
+
+.contact h2 {
+	padding-top: 3em;
+}
+
+.profileimage {
+	width: 100%;
+	text-align: left;
+}
+
+.logo {
+	height: 60px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	float: left;
+	text-align: left;
+}
+
+.about .halfpage {
+	background-color: #f2f2f2;
+}
+
+.about p, h2, .quote{
+	padding-right: 2em;
+}
+
+.contact .halfpage {
+	background-color: white;
+	padding-bottom: 2em;
+	padding-right: 2em;
+}
+
+.contact {
+	clear: both;
+}
+
+.artwork {
+	width: 100%;
+	border-radius: 2px;
+} 
+
+.socialmedia {
+	text-decoration: none;
+}
+
+.socialmedia img {
+	padding-top: 4em;
+	width: 10%;
+	display: inline-block;
+	margin: auto;
+}
+
+.socialmedia:hover {
+	opacity: 0.3;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1em;
+    border: .1em solid #ccc;
+    border-radius: .5em;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    resize: none;
+}
+
+input[type=submit] {
+    background-color: #C0535E;
+    color: white;
+    padding: 1em 2em;
+    border: none;
+    border-radius: .5em;
+    cursor: pointer;
+    width: 30%;
+ }
+
+input[type=submit]:hover {
+    background-color: #FF94AB;
+}
+
+.container {
+	float: left;
+	width: 50%;
+    background-color: #f2f2f2;
+    padding: 1em;
+    font-family: 'Muli', sans-serif;
+	font-size: 1em;
+	height: 100%;
+	padding-top: 2em;
+}
+
+footer {
+	clear: both; 
+	background-color: #7F7F7F;
+	padding: 1em;
+	color: white; 
+	text-align: center;
+	width: 100%;
+	height: 60px;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+@media only screen and (max-width: 1450px){
+.about h2 {
+	padding-top: 3em;
+}
+
+@media only screen and (max-width: 1380px){
+.about h2 {
+	padding-top: 2em;
+}
+
+@media only screen and (max-width: 1200px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 2em;
+	height: 35em;
+	background-repeat: no-repeat;
+}
+
+.quote {
+	width: 100%;
+	margin: 0em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+@media only screen and (max-width: 1150px){
+.quote {
+	width: 100%;
+	margin: 0em;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+@media only screen and (max-width: 1100px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 2em;
+	height: 30em;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 1100px){
+.quote {
+	width: 100%;
+	margin: 0em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 0em;
+	padding-top: 1em;
+	font-size: 1em;
+}
+
+@media only screen and (max-width: 1045px){
+.quote {
+	width: 100%;
+	margin: 0em;
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 0em;
+	padding-top: 1em;
+	font-size: 1.1em;
+}
+
+@media only screen and (max-width: 1040px){
+.quote {
+	display: none;
+}
+
+@media only screen and (max-width: 1000px){
+.column {
+	padding: 10px;
+}
+
+.gallery {
+	padding-top: 3em;
+}
+
+@media only screen and (max-width: 936px){
+.profileimage {
+	display: block;
+	width: 100%;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 1em;
+}
+
+.halfpage {
+	float: none;
+	width: 100%
+}
+
+.container {
+	width: 100%;
+}
+.icons {
+	padding-left: 20%;
+}
+
+
+@media only screen and (max-width: 950px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 28em;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 880px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 25em;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 850px){
+.profileimage {
+	display: block;
+	width: 100%;
+	padding-right: 15%;
+	padding-left: 15%;
+	padding-top: 1em;
+}
+
+.halfpage {
+	float: none;
+	width: 100%
+}
+
+.about p {
+	padding-right: 15%;
+	padding-left: 15%
+}
+
+.socialmedia img {
+	padding-top: 2em;
+	margin: 0%;
+	width: 10%;
+}
+
+.icons {
+	padding-left: 20%;
+}
+
+.gallery {
+	padding-top: 3em;	
+	padding-left: 8em;
+	padding-right: 8em;
+}
+
+.column {
+	float: left;
+	width: 50%;
+}
+
+.container {
+	width: 100%;
+}
+
+@media only screen and (max-width: 800px){
+.gallery {
+	/*padding-top: 0em;*/	
+	padding-left: 4em;
+	padding-right: 4em;
+}
+.profileimage {
+	padding-right: 4em;
+	padding-left: 4em;
+}
+
+.about p {
+	padding-right: 4em;
+	padding-left: 4em;
+}
+
+@media only screen and (max-width: 780px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 23em;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 750px){
+.contact p {
+	display: none;
+}
+
+@media only screen and (max-width: 720px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 23em;
+	background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 720px){
+.cta {
+	padding: 1em;
+	border-radius: 6px;
+	width: 25%;
+}
+
+
+@media only screen and (max-width: 685px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 21em;
+	background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 640px){
+.cta {
+	padding: .6em;
+	border-radius: 6px;
+	width: 30%;
+}
+
+.gallery {
+	padding-top: 2em;
+}
+
+h1 {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h4 {
+	font-size: 1.1em
+}
+
+@media only screen and (max-width: 610px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 20em;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 610px){
+h1 {
+	display: none;
+}
+
+.hero {
+	padding-bottom: 1em;
+	padding-top: 4em;
+}
+
+@media only screen and (max-width: 560px){
+#intro {
+	background: url("../images/line_of_wool.png");
+	background-size: 100%;
+	padding-top: 1.5em;
+	height: 17em;
+	background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 550px){
+.gallery {
+	padding-top: 2em;	
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.profileimage {
+	padding-right: 0em;
+	padding-left: 0em;
+}
+
+.about p {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+@media only screen and (max-width: 500px){
+nav a{
+display: none;
+}
+
+nav:hover a {
+	display: block;
+}
+
+#mobile {
+	display: block;
+	padding-top: 0.55em;
+	padding-bottom: 0.55em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	font-size: 1.8em;
+}
+
+.logo {
+	display: none;
+}
+
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 3em;
+}
+
+.icons {
+	padding-left: 15%;
+}
+
+#intro {
+	background-size: 0%;
+	height: 0em;
+	padding-top: 4em;
+}
+
+@media only screen and (max-width: 460px){
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 2em;
+}
+
+@media only screen and (max-width: 450px){
+.gallery {
+	padding-top: 1.5em;	
+	padding-left: 3em;
+	padding-right: 3em;
+}
+.column {
+	float: left;
+	width: 100%;
+}
+
+.about p {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.icons {
+	padding-left: 10%;
+}
+
+@media only screen and (max-width: 430px){
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1.7em;
+}
+
+@media only screen and (max-width: 415px){
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 1em;
+}
+
+@media only screen and (max-width: 400px){
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: .4em;
+}
+
+@media only screen and (max-width: 370px){
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 0em;
+}
+
+@media only screen and (max-width: 340px){
+.icons{
+	padding-left: 5%;
+}
+
+input[type=submit] {
+    width: 50%;
+ }
+
+.mobilelogo {
+	display: inline-block;
+	height: 90%;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	padding-left: 0em;
+}
+
+@media only screen and (max-width: 300px){
+.mobilelogo {
+		display: none;
+}
+
+footer p {
+	font-size: .8em;
+}
